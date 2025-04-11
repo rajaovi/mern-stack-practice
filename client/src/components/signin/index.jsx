@@ -16,22 +16,34 @@ const SignIn = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="Email"
-        required
-      />
-      <input
-        type="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
-        required
-      />
+      <div className="input-field-container">
+        <label>
+          <input
+            type="email"
+            className="inputField"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder=" "
+            required
+          />
+          <span>Email</span>
+        </label>
+      </div>
+      <div className="input-field-container">
+        <label>
+          <input
+            type="password"
+            className="inputField"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder=" "
+            required
+          />
+          <span>Password</span>
+        </label>
+      </div>
       <button type="submit" disabled={loading}>
-        {loading ? 'Logging in...' : 'Login'}
+        {loading ? "Logging in..." : "Login"}
       </button>
       {error && <p>{error}</p>}
     </form>

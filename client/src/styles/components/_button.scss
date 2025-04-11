@@ -1,0 +1,38 @@
+button {
+  background-color: #333;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 4px 2px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+  &:hover {
+    background-color: #555;
+  }
+  &.blue {
+    background-color: #007bff;
+    color: white;
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  &.blue {
+    background-color: #4caf50;
+    &:hover {
+      background-color: #45a049;
+    }
+    &:active {
+      transform: scale(0.95);
+      background-color: #3e8e41;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+}
