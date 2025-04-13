@@ -54,7 +54,7 @@ const SignUp = () => {
             <button type="submit">Sign Up</button>
           </form>
           <p className="mern-signup__container__form__footer">
-            Already have an account? <a href="/login">Log In</a>
+            Already have an account? <a href="/signin">Log In</a>
           </p>
         </div>
       </div>
