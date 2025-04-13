@@ -1,0 +1,43 @@
+.mern-register {
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-color: #f0f0f0;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    h3 {
+        font-size:22px;
+        font-weight: 500;
+        margin-bottom: 1em;
+    }
+    label {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+    }
+}
+.mern-signup__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    width: 560px;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    .mern-signup__container__form {
+        width: 100%;
+    }
+}
+
+.mern-signup__container__form__footer {
+    margin-top: 1em;
+}

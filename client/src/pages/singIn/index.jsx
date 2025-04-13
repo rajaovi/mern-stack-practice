@@ -1,14 +1,14 @@
 import React from 'react'
-import SignUp from "../../component/signup";
+import SignIn from '../../component/signin'
 
-const Register = () => {
+const Login = () => {
   return (
     <section className="mern-register">
       <div className="mern-register__container">
-        <SignUp />
+        <SignIn />
       </div>
     </section>
   );
-};
+}
 
-export default Register;
+export default Login

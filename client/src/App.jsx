@@ -1,6 +1,5 @@
-import React from "react";
 import "./App.css";
-import RoutePage from "./routes";
+import RoutePage from "./router";
 
 function App() {
   return (
